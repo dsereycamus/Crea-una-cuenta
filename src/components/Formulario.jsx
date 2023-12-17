@@ -13,7 +13,7 @@ const Formulario = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mb-3 formulario">
+    <form onSubmit={handleSubmit} className="mb-3 formulario form-group">
       <div className="mb-3">
         {/* <label htmlFor="nombre" className="form-label">
           Nombre
