@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #aedcf0,
+    #bce0ee,
+    #cae5ec,
+    #d9e9ea,
+    #e8edea
+  );
+  /* background: linear-gradient(135deg, #aed581, #ffeb3b); */
+}
+.registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-box {
+  width: 30rem;
+  padding: 1.5rem;
+  /* border: 1px solid #000; */
+  border-radius: 30px;
+  text-align: center;
+  background-color: #fff;
+}
